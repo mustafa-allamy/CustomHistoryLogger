@@ -2,10 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>This is a logger for  .net core .
+you can use it to log changes or just compare the defrance between models</Description>
+    <Copyright>the_defector</Copyright>
+    <PackageProjectUrl>https://github.com/mustafa-allamy/CustomHistoryLogger</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mustafa-allamy/CustomHistoryLogger</RepositoryUrl>
+    <PackageTags>history logger .net core</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
+    <None Include="licenses\LICENSE.txt" Pack="true"
+
+          PackagePath="LICENSE.txt"/>
   </ItemGroup>
 
 </Project>
